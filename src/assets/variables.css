@@ -1,0 +1,15 @@
+:root {
+  /* #region Color Scheme */
+  --background-color: #ffffff;
+  --text-color: #000000;
+
+  --brand-one: #f3f3f3;
+  --brand-one-hover: oklch(from var(--brand-one) calc(l - 0.15) c h);
+
+  --brand-two: #191a23;
+  --brand-two-hover: oklch(from var(--brand-two) calc(l + 0.15) c h);
+
+  --brand-three: #b9ff66;
+  --brand-three-hover: oklch(from var(--brand-three) calc(l - 0.08) c h);
+  /* #endregion */
+}
