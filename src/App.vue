@@ -1,20 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TheHeader from '@/layout/header/TheHeader.vue'
+import TheFooter from './layout/footer/TheFooter.vue'
+</script>
 
 <template>
-  <h1>Yass</h1>
-  <p>Hello world!</p>
-  <a href="#">a tag test</a>
-  <div class="box">
-    <ol>
-      <li>List</li>
-      <li>Test</li>
-      <li>Example</li>
-    </ol>
-  </div>
+  <TheHeader />
+  <TheFooter />
 </template>
 
-<style scoped>
-.box {
-  margin: 2.5rem;
-}
-</style>
+<style scoped></style>

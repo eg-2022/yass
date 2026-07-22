@@ -12,4 +12,7 @@
   --brand-three: #b9ff66;
   --brand-three-hover: oklch(from var(--brand-three) calc(l - 0.08) c h);
   /* #endregion */
+
+  --the-footer-background: var(--brand-two);
+  --the-footer-color: white;
 }
