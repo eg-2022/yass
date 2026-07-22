@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import NavbarButton from '@/components/NavbarButton.vue'
+import NavbarButton from '@/layout/header/NavbarButton.vue'
 import TheLogo from '@/components/TheLogo.vue'
 </script>
 
