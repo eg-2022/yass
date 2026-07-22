@@ -17,7 +17,7 @@ import TheLogo from '@/components/TheLogo.vue'
   justify-content: space-between;
 
   background-color: var(--background-color);
-  min-height: 5.5rem;
+  min-height: 10dvh;
   padding: 1.25rem;
 }
 </style>
